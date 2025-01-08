@@ -4,128 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Portfolio</title>
-    <style>
-        body {
-            font-family: 'Arial', sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f8f8f8;
-            color: #000000;
-            line-height: 1.6;
-        }
-
-        header {
-            background-color: #000000;
-            color: white;
-            text-align: center;
-            padding: 40px 20px;
-            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-        }
-
-        h1 {
-            margin: 0;
-            font-size: 2.5em;
-        }
-
-        p {
-            margin: 10px 0;
-            font-size: 1.1em;
-            color: #333;
-        }
-
-        section {
-            padding: 30px;
-            margin: 20px;
-            border-radius: 8px;
-            background-color: white;
-            box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
-        }
-
-        h2 {
-            color: #000000;
-            font-size: 1.8em;
-            border-bottom: 2px solid #ddd;
-            padding-bottom: 10px;
-            margin-bottom: 20px;
-        }
-
-        table {
-            width: 100%;
-            border-collapse: collapse;
-            margin-top: 20px;
-        }
-
-        th, td {
-            padding: 12px;
-            text-align: left;
-            border: 1px solid #eee;
-            color: #555;
-        }
-
-        th {
-            background-color: #f7f7f7;
-            font-weight: bold;
-        }
-
-        tr:nth-child(even) {
-            background-color: #fafafa;
-        }
-
-        tr:hover {
-            background-color: #f1f1f1;
-        }
-
-        a {
-            color: #007BFF;
-            text-decoration: none;
-            transition: color 0.3s ease;
-        }
-
-        a:hover {
-            color: #0056b3;
-        }
-
-        ul {
-            list-style: none;
-            padding: 0;
-        }
-
-        li {
-            margin: 5px 0;
-        }
-
-        #about {
-            background-color: #fafafa;
-        }
-
-        #skills {
-            background-color: #fff;
-        }
-
-        #Projects {
-            background-color: #f7f7f7;
-        }
-
-        #Contact {
-            background-color: #fff;
-        }
-
-        footer {
-            background-color: #333;
-            color: white;
-            text-align: center;
-            padding: 10px;
-            position: relative;
-            width: 100%;
-            bottom: 0;
-            font-size: 0.9em;
-        }
-    </style>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header>
-    <h1>My Portfolio</h1>
-    <i>Data Engineering Student</i>
+  <header class="banner">
+    <div class="banner-text">
+      <h1>My Portfolio</h1>
+      <div class="intro">
+      Data Engineering Student
+      </div>
+    </div>
   </header>
   
   <section id="about">
@@ -135,8 +23,8 @@
       <br>I enjoy solving problems and working on projects that involve both hardware and software, preferably in combination.<br></p>
   </section>
   
-  <section id="skills">
-    <h2>Skills</h2>
+  <section id="experience">
+    <h2>Experience</h2>
     <table>
       <tr>
           <th>Category</th>
@@ -146,7 +34,7 @@
       </tr>
       <tr>
         <td>Programming Language </td>
-        <td>Assembly</td>
+        <td>ASM</td>
         <td><1 year</td>
         <td>•</td>
       </tr>
@@ -165,12 +53,6 @@
       <tr>
         <td>Programming Language </td>
         <td>GDScript</td>
-        <td><1 year</td>
-        <td>•</td>
-      </tr>
-      <tr>
-        <td>Programming Language </td>
-        <td>HTML</td>
         <td><1 year</td>
         <td>•</td>
       </tr>
@@ -214,7 +96,7 @@
   </section>
   
   <footer>
-    <p>&copy; 2025 Robin G.Hansen. All rights reserved.</p>
+     <i>Made by Robin Gahnström Hansen 2025</i>
   </footer>
 
 </body>
